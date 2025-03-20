@@ -7,8 +7,20 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
+license = "MIT"
+keywords = ["systemd", "linux", "fake", "systemd-python"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
 ]
+[project.urls]
+Homepage = "http://github.com/peturingi/fake-systemd-python"
+Documentation = "https://github.com/peturingi/fake-systemd-python/wiki"
+Repository = "http://github.com/peturingi/fake-systemd-python.git"
+Issues = "https://github.com/peturingi/fake-systemd-python/issues"
+Changelog = "https://github.com/peturingi/fake-systemd-python/master/CHANGELOG.md"
+dependencies = []
 
 
 [build-system]
